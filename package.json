@@ -40,17 +40,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "cssnano": {
-    "preset": [
-      "default",
-      {
-        "calc": false
-      }
-    ]
-  },
   "browserslist": {
     "production": [
-      ">0.2%",
       "not dead",
       "not op_mini all"
     ],
