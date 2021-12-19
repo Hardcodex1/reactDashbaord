@@ -32,11 +32,11 @@
   },
    "engines": {
     "node": "16.13.0",
-    "npm": "8.3.0"
+    "npm": "8.1.0"
   },
     "scripts": {
-    "start": "react-scripts –openssl-legacy-provider start",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
