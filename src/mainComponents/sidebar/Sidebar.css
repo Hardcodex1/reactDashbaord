@@ -1,0 +1,78 @@
+.sidebar {
+    color: white;
+    flex: 0.6;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-radius: 3%;
+    overflow: hidden;
+    margin: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #fcfcfc, 5px 5px 15px 5px rgba(214, 212, 212, 0); 
+    box-shadow: 0px 10px 13px -7px #fafafa, 5px 5px 15px 5px rgba(207, 205, 205, 0);
+}
+
+.sidebarLogin {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: #111111;
+}
+.sidebarImg {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.sidebarLoginTitle {
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.sidebarList {
+    margin-top: 2px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarListItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 6.5%;
+    border: none;
+    height: 2.2em;
+}
+
+.sidebarOptions {
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.sidebarListItems:hover {
+    background-color: black;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.sidebarListIcons {
+    color: turquoise;
+}

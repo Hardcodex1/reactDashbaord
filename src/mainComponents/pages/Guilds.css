@@ -1,0 +1,322 @@
+.guild {
+    flex: 4;
+    margin: 20px 20px;
+    width: 100%;
+    height: calc(100vh 20%);
+    overflow-y: scroll;
+}
+
+.guild::-webkit-scrollbar {
+    display: none;
+}
+
+.guildContentWrapper {
+    padding: 0px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.guildContentTitle {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentTitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.guildTableWrapper {
+    margin: 20px 20px;
+}
+
+.guildTable {
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.guildTable th, .guildTable td {
+    border: 1px solid #ddd;
+  padding: 8px;
+  color: white;
+}
+
+.guildTable tr:hover {
+    background-color: rgb(48, 47, 47);
+}
+
+.guildTable th {
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(48, 47, 47);;
+  color: white;
+}
+
+.guildServerContainer {
+    color: white;
+    width: 97%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202225;
+}
+
+.guildServerLeft {
+    display: flex;
+    flex-direction: column;
+    background-color: #202225;
+    border: none;
+    border-radius: 2%;
+    flex: 0.32;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.guildServerLeft::-webkit-scrollbar {
+    display: none;
+}
+
+.guildServerRight::-webkit-scrollbar {
+    display: none;
+}
+
+.guildServerCenter {
+    flex: 1;
+    background-color: #2f3136;
+    border-top-left-radius: 2%;
+}
+
+.guildServerRight {
+    flex: 4;
+    background-color:#36393f ;
+}
+
+.serverSidebarIconsBox {
+    width: 3.35em;
+    height: 10%;
+    border: none;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.serverSidebarIcons {
+    width: 3.35em;
+    height: 5;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.serverCenterHeading {
+    box-shadow: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    padding: 2.5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serverCenterHeading:hover {
+    cursor: pointer;
+    background-color: rgba(79,84,92,0.16);
+}
+
+.centerTitle {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 10px 10px;
+}
+
+.centerIcon {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    margin: 10px 0px;
+    padding-left: 0px 20px ;
+}
+
+.serverCenterDetails {
+    color: #8e9297;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.serverCenterCatagory {
+    color: #8e9297;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+.centerDetailsCatagory {
+    margin: 10px 20px;
+}
+
+.centerContainer {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.centerContainer:hover {
+    background-color: rgba(79,84,92,0.16);
+}
+
+.serverRightHeading {
+    box-shadow: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    padding: 4.5px 7px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #36393f;
+}
+
+.rightTitle {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 10px 10px;
+}
+
+.submitButton {
+    background-color: rgb(63, 177, 63);
+    border: none;
+    border-radius: 6%;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    box-sizing: border-box;
+    width: 15%;
+    height: 2em;
+}
+
+.submitButton:hover {
+    background-color: rgb(40, 156, 40);;
+}
+
+.serverCenterSettings {
+    margin: 5px 0px;
+    height: 100%;
+}
+
+.centerSettingsWrapper {
+    height: 100%;
+}
+
+.centerSettingsContainer {
+    display: flex;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.centerSettingsContainer:hover {
+    background-color: #36393f;
+}
+
+.centerSettings {
+    color: #8e9297;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.guildServerRight {
+    overflow-y: scroll;
+}
+
+.serverRightContentContainer {
+    height: calc(100% - 50px);
+    width: 100%;
+}
+
+.serverRightContentTitle {
+    width: 100%;
+    height: 7%;
+    margin-top: 20px;
+}
+
+.serverRightContentTitleText {
+    font-size: 1.8em;
+    color: rgb(175, 174, 174);
+    font-weight: 500;
+    padding: 1px 12px;
+}
+
+.serverRightContentWrapper {
+    width: 100%;
+    height: calc(100% - 7%);
+}
+
+.rightFunctionContainer {
+    width: 100%;
+    height: 40%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightFunctionContainer:hover {
+    background-color: #2f3136;
+}
+
+.functionTitle {
+    width: 100%;
+    height: 20%;
+}
+
+.functionTitleText {
+    font-size: 22px;
+    font-weight: 450;
+    color: #8e9297;
+    padding: 5px 25px;
+}
+
+.functionInput {
+    border: 1px solid #2f3136;
+    border-radius: 5%;
+    background-color: #202225;
+    color: white;
+    width: 40%;
+    height: 20%;
+    padding: 2px 30px;
+    margin: 2px 30px;
+}
+
+.functionInput:focus {
+    font-size: 17px;
+    border: 1px solid #202225;
+}

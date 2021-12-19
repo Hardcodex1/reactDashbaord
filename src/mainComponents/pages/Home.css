@@ -1,0 +1,140 @@
+.home {
+    flex: 4;
+    color: white;
+    width: 100%;
+    height: calc(100vh - 10px);
+    margin: 10px;
+    overflow: hidden;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.homeContent {
+    margin: 2px 5px;
+    width: 100%;
+    height: calc(100vh - 20px);
+    overflow: hidden;
+}
+
+.homeWidgets {
+    width: 100%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.homeWidgetCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    margin-right: 4em;
+    margin-top: 1em;
+    background: rgb(10,74,130);
+    background: linear-gradient(90deg, rgba(10,74,130,1) 38%, rgba(0,202,249,1) 100%);
+    box-shadow: 1px 2px 19px 0px rgba(54, 177, 207, 0.54);
+    -webkit-box-shadow: 1px 2px 19px 0px rgba(88, 152, 235, 0.54);
+    -moz-box-shadow: 1px 2px 19px 0px rgba(63, 129, 184, 0.54);
+}
+
+.homeWidgetCard:hover {
+    background-color: rgb(18, 218, 198);
+}
+
+.homeCardTitle {
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.homeCardCount {
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.homeWelcomeScreen {
+    margin: 50px 0px;
+    padding: 50px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.screenMainWrapper {
+    margin: 0px 30px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    background: linear-gradient( 39deg,rgba(68,162,181,1) 0%,rgba(63,161,250,1) 52%,rgba(241,79,90,1) 100% );
+    box-shadow: 1px 2px 19px 0px rgba(54, 177, 207, 0.54);
+    -webkit-box-shadow: 1px 2px 19px 0px rgba(88, 152, 235, 0.54);
+    -moz-box-shadow: 1px 2px 19px 0px rgba(63, 129, 184, 0.54);
+}
+
+.screenLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.screenTitle {
+    margin: 20px 40px;
+    font-size: calc(17px + (16 - 12) * (100vw - 400px)/(800 - 400))!important;
+}
+
+.leftScreenImg {
+    width: 47%;
+    height: 25%;
+    border: none;
+    border-radius: 70%;
+    margin-bottom: 2.5em;
+    box-shadow: rgba(222, 29, 45, 0.75);
+    border: 1px solid #de1d27;
+    animation: standardPulse 2s infinite;
+}
+
+.leftScreenImg:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+width: 57%;
+    height: 30%;
+}
+
+.leftScreenButton {
+    border: none;
+    border-radius: 10%;
+    background-color: transparent;
+    color: #000;
+}
+
+.screenRight {
+    flex: 4;
+    padding-top: 3em;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailContainer {
+    display: flex;
+    align-items: center;
+}
+
+.rightScreenText {
+    margin: 10px 10px;
+    font-weight: 500;
+    font-size: calc(20px + (16 - 12) * (100vw - 400px)/(800 - 400))!important;
+}
+
+.detailIcon {
+    font-size: 30px !important;
+}

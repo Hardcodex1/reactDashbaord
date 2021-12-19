@@ -1,0 +1,139 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.heroMainContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.heroMainLeft {
+    flex: 2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mainLeftTextContainer {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 90%;
+    height: 60%;
+    margin-bottom: 60px;
+}
+
+.mainLeftTitle {
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(179, 177, 177);
+    margin-left: 0.6em;
+}
+
+.mainLeftText {
+    font-size: 15px;
+    margin-left: 2.5em;
+    margin-top: 1em;
+}
+
+.buttonContainer {
+    margin-top:1.5em;
+    margin-left: 2.3em;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboardButtonContainer {
+    background: rgb(138,134,0);
+    background: linear-gradient(90deg, rgba(138,134,0,1) 36%, rgba(208,212,32,1) 68%, rgba(224,247,32,1) 100%);
+    border: none;
+    display: block;
+    border-radius: 30px;
+    line-height: 1;
+    width: 9.5em;
+    height: 3.1em;
+    color: white;
+    font-size: 15px;
+    margin-right: 7.5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dashboardButton {
+    background-color: transparent;
+    border: none;
+    display: block;
+    border-radius: 30px;
+    line-height: 1;
+    width: 9.5em;
+    height: 3.1em;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.inviteButtonContainer {
+    background-color: transparent;
+    border: 1px solid gray;
+    display: block;
+    border-radius: 30px;
+    line-height: 1;
+    width: 9.5em;
+    height: 3.1em;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 7.5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inviteButton {
+    background-color: transparent;
+    border: none;
+    display: block;
+    border-radius: 30px;
+    line-height: 1;
+    width: 9.5em;
+    height: 3.1em;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.inviteButtonContainer:hover {
+    background: rgb(138,134,0);
+    background: linear-gradient(90deg, rgba(138,134,0,1) 36%, rgba(208,212,32,1) 68%, rgba(224,247,32,1) 100%);
+}
+
+.heroMainRight {
+    flex: 2.2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mainRightImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 12em;
+}
+
+.mainRightImg {
+    width: 100%;
+    height: 100%;
+}

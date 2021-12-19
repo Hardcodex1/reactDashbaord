@@ -1,0 +1,43 @@
+.topbar {
+    flex: 4;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    height: 15%;
+    border: 0;
+}
+
+.topbarTitle {
+    float: left;
+    padding: 10px 20px;
+    background-color: none;
+    color: white;
+    cursor: pointer;
+}
+
+.topbarLeft {
+    padding: 0px 10px;
+}
+
+.topbarTitleText {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.topbarRight {
+    padding: 0px 10px;
+}
+
+.topbarTitleTextR {
+    font-weight: 300;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.link2 {
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(247, 86, 86);
+}
