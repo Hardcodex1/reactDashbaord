@@ -35,7 +35,7 @@
     "npm": "8.3.0"
   },
    "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start"
   },
   "cssnano": {
     "preset": [
